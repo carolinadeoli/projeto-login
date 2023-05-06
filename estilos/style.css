@@ -44,6 +44,9 @@ section#login >div#imagem{
     background: #5f2c82 url(../imagens/imagem-log.jpg) no-repeat;
     background-size: cover;
     height: 200px;
+
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
 }
 
 section#login >div#formulario{
